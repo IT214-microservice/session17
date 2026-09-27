@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.rikkei.b2.LazyLoadingCacheApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-23T13:27:15.961Z" hostname="LAPTOP-CFE5QQ0I" time="1.991">
+  <properties/>
+  <testcase name="testLazyLoadingWithCacheable()" classname="com.rikkei.b2.LazyLoadingCacheApplicationTests" time="0.589"/>
+  <system-out><![CDATA[20:27:16.077 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.rikkei.b2.LazyLoadingCacheApplicationTests]: LazyLoadingCacheApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:27:16.159 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.rikkei.b2.LazyLoadingCacheApplication for test class com.rikkei.b2.LazyLoadingCacheApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2026-09-23T20:27:16.422+07:00  INFO 29152 --- [    Test worker] c.r.b2.LazyLoadingCacheApplicationTests  : Starting LazyLoadingCacheApplicationTests using Java 23.0.2 with PID 29152 (started by LE THANH CUONG in D:\RIKKEI\RIKKEI_MicroServiceSystem\ss17\b2)
+2026-09-23T20:27:16.423+07:00  INFO 29152 --- [    Test worker] c.r.b2.LazyLoadingCacheApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2026-09-23T20:27:17.348+07:00  INFO 29152 --- [    Test worker] c.r.b2.LazyLoadingCacheApplicationTests  : Started LazyLoadingCacheApplicationTests in 1.077 seconds (process running for 1.963)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\LE THANH CUONG\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.19\154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1\byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
